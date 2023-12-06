@@ -1,0 +1,4742 @@
+URL1 : https://pokeapi.co/api/v2/berry/1/
+Result : 
+{
+    "firmness": {
+        "name": "soft",
+        "url": "https://pokeapi.co/api/v2/berry-firmness/2/"
+    },
+    "flavors": [
+        {
+            "flavor": {
+                "name": "spicy",
+                "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+            },
+            "potency": 10
+        },
+        {
+            "flavor": {
+                "name": "dry",
+                "url": "https://pokeapi.co/api/v2/berry-flavor/2/"
+            },
+            "potency": 0
+        },
+        {
+            "flavor": {
+                "name": "sweet",
+                "url": "https://pokeapi.co/api/v2/berry-flavor/3/"
+            },
+            "potency": 0
+        },
+        {
+            "flavor": {
+                "name": "bitter",
+                "url": "https://pokeapi.co/api/v2/berry-flavor/4/"
+            },
+            "potency": 0
+        },
+        {
+            "flavor": {
+                "name": "sour",
+                "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+            },
+            "potency": 0
+        }
+    ],
+    "growth_time": 3,
+    "id": 1,
+    "item": {
+        "name": "cheri-berry",
+        "url": "https://pokeapi.co/api/v2/item/126/"
+    },
+    "max_harvest": 5,
+    "name": "cheri",
+    "natural_gift_power": 60,
+    "natural_gift_type": {
+        "name": "fire",
+        "url": "https://pokeapi.co/api/v2/type/10/"
+    },
+    "size": 20,
+    "smoothness": 25,
+    "soil_dryness": 15
+}
+
+ URL2 : https://pokeapi.co/api/v2/ability/25/
+ Result : 
+ {
+    "effect_changes": [
+        {
+            "effect_entries": [
+                {
+                    "effect": "fire fang und Attacken die typenlosen Schaden verursachen, ignorieren diese Fähigkeit unabhängig von ihrem Typ.",
+                    "language": {
+                        "name": "de",
+                        "url": "https://pokeapi.co/api/v2/language/6/"
+                    }
+                },
+                {
+                    "effect": "fire fang and moves that inflict typeless damage ignore this ability regardless of type.",
+                    "language": {
+                        "name": "en",
+                        "url": "https://pokeapi.co/api/v2/language/9/"
+                    }
+                }
+            ],
+            "version_group": {
+                "name": "black-white",
+                "url": "https://pokeapi.co/api/v2/version-group/11/"
+            }
+        }
+    ],
+    "effect_entries": [
+        {
+            "effect": "Ein Pokémon mit dieser Fähigkeit ist immun gegen alle Schaden verursachenden Attacken die nicht sehr effektiv sind.\n\nAttacken die festen Schaden verursachen, wie night shade oder seismic toss werden mitgezählt. Schaden der nicht direkt durch die Attacke verursacht wird, wie der vom weather, einer status ailment oder spikes wird nicht verhindert.\n\nDiese Fähigkeit kann nicht mit role play kopiert oder mit skill swap getauscht werden, kann aber mit trace kopiert, mit gastro acid deaktiviert oder mit worry seed geändert werden. Das Pokémon kann seine Fähigkeit trotzdem mit role play selbst tauschen.\n\nWenn das Pokémon einen substitute hat, werden Attacken zuerst durch die Fähigkeit verhindert, erst Attacken die trotzdem treffen würden, würden durch den substitute verhindert.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "short_effect": "Schützt gegen Schaden verursachende Attacken die nicht sehr effektiv sind."
+        },
+        {
+            "effect": "This Pokémon is immune to damaging moves that are not super effective against it.\n\nMoves that inflict fixed damage, such as night shade or seismic toss, are considered super effective if their types are.  Damage not directly dealt by moves, such as damage from weather, a status ailment, or spikes, is not prevented.\n\nThis ability cannot be copied with role play or traded away with skill swap, but it can be copied with trace, disabled with gastro acid, or changed with worry seed.  This Pokémon can still use Role Play itself to lose this ability, but not Skill Swap.\n\nIf this Pokémon has a substitute, this ability will block moves as usual and any moves not blocked will react to the Substitute as usual.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "short_effect": "Protects against damaging moves that are not super effective."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "flavor_text": "“Super effective” hits.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "https://pokeapi.co/api/v2/version-group/5/"
+            }
+        },
+        {
+            "flavor_text": "“Super effective” hits.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "emerald",
+                "url": "https://pokeapi.co/api/v2/version-group/6/"
+            }
+        },
+        {
+            "flavor_text": "“Super effective” hits.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "https://pokeapi.co/api/v2/version-group/7/"
+            }
+        },
+        {
+            "flavor_text": "Only supereffective\nmoves will hit.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "https://pokeapi.co/api/v2/version-group/8/"
+            }
+        },
+        {
+            "flavor_text": "Only supereffective\nmoves will hit.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "platinum",
+                "url": "https://pokeapi.co/api/v2/version-group/9/"
+            }
+        },
+        {
+            "flavor_text": "Only supereffective\nmoves will hit.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "https://pokeapi.co/api/v2/version-group/10/"
+            }
+        },
+        {
+            "flavor_text": "Seules capacités “super\nefficaces” l’atteignent.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "https://pokeapi.co/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Only supereffective\nmoves will hit.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-white",
+                "url": "https://pokeapi.co/api/v2/version-group/11/"
+            }
+        },
+        {
+            "flavor_text": "Only supereffective\nmoves will hit.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "https://pokeapi.co/api/v2/version-group/14/"
+            }
+        },
+        {
+            "flavor_text": "こうかばつぐん　しか\nあたらない。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "https://pokeapi.co/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "효과가 굉장한 기술밖에\n맞지 않는다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "https://pokeapi.co/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Seules les capacités « super\nefficaces » l’atteignent.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "https://pokeapi.co/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Nur sehr effektive Treffer\nrichten Schaden an.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "https://pokeapi.co/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Solo le hacen daño los\nmovimientos supereficaces.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "https://pokeapi.co/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Rende vulnerabili solo alle\nmosse superefficaci.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "https://pokeapi.co/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "Only supereffective\nmoves will hit.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "https://pokeapi.co/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "効果バツグン　しか\n当たらない。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "x-y",
+                "url": "https://pokeapi.co/api/v2/version-group/15/"
+            }
+        },
+        {
+            "flavor_text": "こうかばつぐん　しか\nあたらない。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "효과가 굉장한 기술밖에\n맞지 않는다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Seules les capacités «super\nefficaces» l’atteignent.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Nur sehr effektive Treffer\nrichten Schaden an.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Solo le hacen daño los\nmovimientos supereficaces.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Rende vulnerabili solo alle\nmosse superefficaci.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "Only supereffective\nmoves will hit.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "効果バツグン　しか\n当たらない。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "omega-ruby-alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version-group/16/"
+            }
+        },
+        {
+            "flavor_text": "こうかばつぐんの　わざしか\nあたらない　ふしぎな　ちから。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "https://pokeapi.co/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "효과가 굉장한 기술만\n맞는 불가사의한 힘.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "https://pokeapi.co/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "不可思議的力量，\n只有效果絕佳的招式才會擊中自己。",
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "https://pokeapi.co/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Une puissance mystérieuse protège le Pokémon\ncontre toutes les capacités, sauf celles « super\nefficaces ».",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "https://pokeapi.co/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Wundersame Kräfte bewirken, dass nur sehr\neffektive Treffer bei ihm Schaden anrichten.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "https://pokeapi.co/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Gracias a un poder misterioso, solo le hacen daño los\nmovimientos supereficaces.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "https://pokeapi.co/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Un potere misterioso protegge il Pokémon e lo\nrende vulnerabile solo alle mosse superefficaci.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "https://pokeapi.co/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "Its mysterious power only lets supereffective moves\nhit the Pokémon.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "https://pokeapi.co/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "効果バツグンの　技しか\n当たらない　不思議な　力。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "https://pokeapi.co/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "不可思议的力量，\n只有效果绝佳的招式才能击中。",
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sun-moon",
+                "url": "https://pokeapi.co/api/v2/version-group/17/"
+            }
+        },
+        {
+            "flavor_text": "こうかばつぐんの　わざしか\nあたらない　ふしぎな　ちから。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "효과가 굉장한 기술만\n맞는 불가사의한 힘.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "不可思議的力量，\n只有效果絕佳的招式才會擊中自己。",
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Une puissance mystérieuse protège le Pokémon\ncontre toutes les capacités, sauf celles « super\nefficaces ».",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Wundersame Kräfte bewirken, dass nur sehr\neffektive Treffer bei ihm Schaden anrichten.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Gracias a un poder misterioso, solo le hacen daño los\nmovimientos supereficaces.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Un potere misterioso protegge il Pokémon e lo\nrende vulnerabile solo alle mosse superefficaci.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "Its mysterious power only lets supereffective moves\nhit the Pokémon.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "効果バツグンの　技しか\n当たらない　不思議な　力。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "不可思议的力量，\n只有效果绝佳的招式才能击中。",
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "ultra-sun-ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version-group/18/"
+            }
+        },
+        {
+            "flavor_text": "こうかばつぐんの　わざしか\nあたらない　ふしぎな　ちから。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "lets-go-pikachu-lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version-group/19/"
+            }
+        },
+        {
+            "flavor_text": "효과가 굉장한 기술만\n맞는 불가사의한 힘.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "lets-go-pikachu-lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version-group/19/"
+            }
+        },
+        {
+            "flavor_text": "不可思議的力量，\n只有效果絕佳的招式才會擊中自己。",
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "lets-go-pikachu-lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version-group/19/"
+            }
+        },
+        {
+            "flavor_text": "Une puissance mystérieuse protège le Pokémon\ncontre toutes les capacités, sauf celles « super\nefficaces ».",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "lets-go-pikachu-lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version-group/19/"
+            }
+        },
+        {
+            "flavor_text": "Wundersame Kräfte bewirken, dass nur sehr\neffektive Treffer bei ihm Schaden anrichten.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "lets-go-pikachu-lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version-group/19/"
+            }
+        },
+        {
+            "flavor_text": "Gracias a un poder misterioso, solo le hacen daño los\nmovimientos supereficaces.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "lets-go-pikachu-lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version-group/19/"
+            }
+        },
+        {
+            "flavor_text": "Un potere misterioso protegge il Pokémon e lo\nrende vulnerabile solo alle mosse superefficaci.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "lets-go-pikachu-lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version-group/19/"
+            }
+        },
+        {
+            "flavor_text": "Its mysterious power only lets supereffective moves\nhit the Pokémon.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "lets-go-pikachu-lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version-group/19/"
+            }
+        },
+        {
+            "flavor_text": "効果バツグンの　技しか\n当たらない　不思議な　力。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "lets-go-pikachu-lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version-group/19/"
+            }
+        },
+        {
+            "flavor_text": "不可思议的力量，\n只有效果绝佳的招式才能击中。",
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "lets-go-pikachu-lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version-group/19/"
+            }
+        },
+        {
+            "flavor_text": "こうかばつぐんの　わざしか\nあたらない　ふしぎな　ちから。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "https://pokeapi.co/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "효과가 굉장한 기술만\n맞는 불가사의한 힘.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "https://pokeapi.co/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "不可思議的力量，\n只有效果絕佳的招式才會擊中自己。",
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "https://pokeapi.co/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "Une puissance mystérieuse protège le Pokémon contre\ntoutes les capacités, sauf celles « super efficaces ».",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "https://pokeapi.co/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "Wundersame Kräfte bewirken, dass nur sehr effektive\nTreffer bei ihm Schaden anrichten.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "https://pokeapi.co/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "Gracias a un poder misterioso, solo le hacen daño los\nmovimientos supereficaces.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "https://pokeapi.co/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "Un potere misterioso protegge il Pokémon e lo\nrende vulnerabile solo alle mosse superefficaci.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "https://pokeapi.co/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "Its mysterious power only lets supereffective moves\nhit the Pokémon.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "https://pokeapi.co/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "効果バツグンの　技しか\n当たらない　不思議な　力。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "https://pokeapi.co/api/v2/version-group/20/"
+            }
+        },
+        {
+            "flavor_text": "不可思议的力量，\n只有效果绝佳的招式才能击中。",
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version_group": {
+                "name": "sword-shield",
+                "url": "https://pokeapi.co/api/v2/version-group/20/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "https://pokeapi.co/api/v2/generation/3/"
+    },
+    "id": 25,
+    "is_main_series": true,
+    "name": "wonder-guard",
+    "names": [
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "name": "ふしぎなまもり"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "name": "불가사의부적"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "name": "神奇守護"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "name": "Garde Mystik"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "name": "Wunderwache"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "name": "Superguarda"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "name": "Magidifesa"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "name": "Wonder Guard"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "name": "ふしぎなまもり"
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "name": "神奇守护"
+        }
+    ],
+    "pokemon": [
+        {
+            "is_hidden": false,
+            "pokemon": {
+                "name": "shedinja",
+                "url": "https://pokeapi.co/api/v2/pokemon/292/"
+            },
+            "slot": 1
+        }
+    ]
+}
+
+URL3 : https://pokeapi.co/api/v2/pokemon-color/1/
+
+Result : 
+{
+    "id": 1,
+    "name": "black",
+    "names": [
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "name": "くろいろ"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "name": "검정"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "name": "黑色"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "name": "Noir"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "name": "Schwarz"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "name": "Negro"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "name": "Nero"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "name": "Black"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "name": "黒色"
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "name": "黑色"
+        }
+    ],
+    "pokemon_species": [
+        {
+            "name": "snorlax",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/143/"
+        },
+        {
+            "name": "murkrow",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/198/"
+        },
+        {
+            "name": "unown",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/201/"
+        },
+        {
+            "name": "sneasel",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/215/"
+        },
+        {
+            "name": "umbreon",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/197/"
+        },
+        {
+            "name": "houndour",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/228/"
+        },
+        {
+            "name": "houndoom",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/229/"
+        },
+        {
+            "name": "mawile",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/303/"
+        },
+        {
+            "name": "spoink",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/325/"
+        },
+        {
+            "name": "seviper",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/336/"
+        },
+        {
+            "name": "shuppet",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/353/"
+        },
+        {
+            "name": "duskull",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/355/"
+        },
+        {
+            "name": "claydol",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/344/"
+        },
+        {
+            "name": "banette",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/354/"
+        },
+        {
+            "name": "dusclops",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/356/"
+        },
+        {
+            "name": "chatot",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/441/"
+        },
+        {
+            "name": "munchlax",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/446/"
+        },
+        {
+            "name": "honchkrow",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/430/"
+        },
+        {
+            "name": "giratina",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/487/"
+        },
+        {
+            "name": "darkrai",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/491/"
+        },
+        {
+            "name": "blitzle",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/522/"
+        },
+        {
+            "name": "weavile",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/461/"
+        },
+        {
+            "name": "dusknoir",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/477/"
+        },
+        {
+            "name": "zebstrika",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/523/"
+        },
+        {
+            "name": "sigilyph",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/561/"
+        },
+        {
+            "name": "yamask",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/562/"
+        },
+        {
+            "name": "lampent",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/608/"
+        },
+        {
+            "name": "zekrom",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/644/"
+        },
+        {
+            "name": "scatterbug",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/664/"
+        },
+        {
+            "name": "spewpa",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/665/"
+        },
+        {
+            "name": "pikipek",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/731/"
+        },
+        {
+            "name": "salandit",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/757/"
+        },
+        {
+            "name": "trumbeak",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/732/"
+        },
+        {
+            "name": "toucannon",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/733/"
+        },
+        {
+            "name": "salazzle",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/758/"
+        },
+        {
+            "name": "pyukumuku",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/771/"
+        },
+        {
+            "name": "xurkitree",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/796/"
+        },
+        {
+            "name": "guzzlord",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/799/"
+        },
+        {
+            "name": "necrozma",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/800/"
+        },
+        {
+            "name": "rolycoly",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/837/"
+        },
+        {
+            "name": "carkol",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/838/"
+        },
+        {
+            "name": "coalossal",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/839/"
+        },
+        {
+            "name": "spectrier",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/897/"
+        },
+        {
+            "name": "overqwil",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/904/"
+        },
+        {
+            "name": "wattrel",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/940/"
+        },
+        {
+            "name": "toedscruel",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/949/"
+        },
+        {
+            "name": "kingambit",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/983/"
+        },
+        {
+            "name": "okidogi",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/1014/"
+        },
+        {
+            "name": "munkidori",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/1015/"
+        },
+        {
+            "name": "fezandipiti",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/1016/"
+        },
+        {
+            "name": "chandelure",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/609/"
+        }
+    ]
+}
+
+URL4 : https://pokeapi.co/api/v2/pokemon-species/25/
+Result : 
+{
+    "base_happiness": 50,
+    "capture_rate": 190,
+    "color": {
+        "name": "yellow",
+        "url": "https://pokeapi.co/api/v2/pokemon-color/10/"
+    },
+    "egg_groups": [
+        {
+            "name": "ground",
+            "url": "https://pokeapi.co/api/v2/egg-group/5/"
+        },
+        {
+            "name": "fairy",
+            "url": "https://pokeapi.co/api/v2/egg-group/6/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "https://pokeapi.co/api/v2/evolution-chain/10/"
+    },
+    "evolves_from_species": {
+        "name": "pichu",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/172/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "When several of\nthese POKéMON\ngather, their\felectricity could\nbuild and cause\nlightning storms.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "red",
+                "url": "https://pokeapi.co/api/v2/version/1/"
+            }
+        },
+        {
+            "flavor_text": "When several of\nthese POKéMON\ngather, their\felectricity could\nbuild and cause\nlightning storms.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "blue",
+                "url": "https://pokeapi.co/api/v2/version/2/"
+            }
+        },
+        {
+            "flavor_text": "It keeps its tail\nraised to monitor\nits surroundings.\fIf you yank its\ntail, it will try\nto bite you.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "yellow",
+                "url": "https://pokeapi.co/api/v2/version/3/"
+            }
+        },
+        {
+            "flavor_text": "This intelligent\nPOKéMON roasts\nhard BERRIES with\felectricity to\nmake them tender\nenough to eat.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "https://pokeapi.co/api/v2/version/4/"
+            }
+        },
+        {
+            "flavor_text": "It raises its tail\nto check its sur­\nroundings. The\ftail is sometimes\nstruck by light­\nning in this pose.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "https://pokeapi.co/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "When it is anger­\ned, it immediately\ndischarges the\fenergy stored in\nthe pouches in its\ncheeks.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "https://pokeapi.co/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "Whenever PIKACHU comes across\nsomething new, it blasts it with a jolt\nof electricity.\fIf you come across a blackened berry,\nit’s evidence that this POKéMON\nmistook the intensity of its charge.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "https://pokeapi.co/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "This POKéMON has electricity-storing\npouches on its cheeks. These appear to\nbecome electrically charged during the\fnight while PIKACHU sleeps.\nIt occasionally discharges electricity\nwhen it is dozy after waking up.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "https://pokeapi.co/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "It stores electricity in the electric sacs\non its cheeks. When it releases pent-up\nenergy in a burst, the electric power is\nequal to a lightning bolt.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "https://pokeapi.co/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "It has small electric sacs on both its\ncheeks. If threatened, it looses electric\ncharges from the sacs.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "https://pokeapi.co/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "When several of these POKéMON gather,\ntheir electricity can build and cause\nlightning storms.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "https://pokeapi.co/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "It lives in forests with others.\nIt stores electricity in the\npouches on its cheeks.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "https://pokeapi.co/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "If it looses crackling power from\nthe electric pouches on its\ncheeks, it is being wary.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "https://pokeapi.co/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It occasionally uses an electric\nshock to recharge a fellow PIKACHU\nthat is in a weakened state.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "https://pokeapi.co/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "This intelligent Pokémon roasts\nhard berries with electricity to\nmake them tender enough to eat.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "https://pokeapi.co/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It raises its tail to check its\nsurroundings. The tail is sometimes\nstruck by lightning in this pose.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "https://pokeapi.co/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "Il lui arrive de remettre d’aplomb\nun Pikachu allié en lui envoyant\nune décharge électrique.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "https://pokeapi.co/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It occasionally uses an electric\nshock to recharge a fellow Pikachu\nthat is in a weakened state.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "https://pokeapi.co/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il lui arrive de remettre d’aplomb\nun Pikachu allié en lui envoyant\nune décharge électrique.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "https://pokeapi.co/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It occasionally uses an electric\nshock to recharge a fellow Pikachu\nthat is in a weakened state.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "https://pokeapi.co/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It occasionally uses an electric\nshock to recharge a fellow Pikachu\nthat is in a weakened state.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "https://pokeapi.co/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It occasionally uses an electric\nshock to recharge a fellow Pikachu\nthat is in a weakened state.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "https://pokeapi.co/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "しっぽを　たてて　まわりの\nようすを　さぐっていると　ときどき\nかみなりが　しっぽに　おちてくる。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "꼬리를 세우고 주변의\n상황을 살피다 보면 가끔\n꼬리에 번개가 친다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Il élève sa queue pour surveiller les environs.\nElle attire souvent la foudre dans cette position.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es streckt seinen Schweif nach oben, um seine\nUmgebung zu prüfen. Häufig fährt ein Blitz hinein.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Levanta su cola para vigilar los alrededores. A veces,\npuede ser alcanzado por un rayo en esa pose.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Solleva la coda per esaminare l’ambiente circostante.\nA volte la coda è colpita da un fulmine quando è in\nquesta posizione.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It raises its tail to check its surroundings.\nThe tail is sometimes struck by lightning\nin this pose.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "尻尾を　立てて　まわりの　様子を\n探っていると　ときどき\n雷が　尻尾に　落ちてくる。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "ほっぺたの　りょうがわに\nちいさい　でんきぶくろを　もつ。\nピンチのときに　ほうでんする。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "뺨의 양쪽에\n작은 전기 주머니가 있다.\n위기 상황일 때 방전한다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Pikachu a de petites poches pleines d’électricité sur\nses joues. S’il se sent menacé, il laisse s’échapper\ndes décharges électriques.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es hat kleine Backentaschen, die mit Elektrizität\ngefüllt sind. Bei Gefahr entlädt es sie.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Las bolsas de las mejillas están llenas de electricidad,\nque libera cuando se siente amenazado.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Se spaventato, perde scariche elettriche dalle due\nsacche che ha sulle guance.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It has small electric sacs on both its cheeks.\nIf threatened, it looses electric charges from\nthe sacs.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "ほっぺたの　両側に\n小さい　電気袋を　持つ。\nピンチのときに　放電する。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "はじめて　みる　ものには　でんげきを　あてる。\nくろこげの　きのみが　おちていたら　それは\nでんげきの　つよさを　まちがえた　しょうこだよ。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "처음 보는 것에게는 전격을 맞춘다.\n새까맣게 탄 나무열매가 떨어져 있다는 것은\n전격의 세기를 조절하지 못했다는 증거다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Chaque fois que Pikachu découvre quelque chose de\nnouveau, il envoie un arc électrique. Lorsqu’on tombe\nsur une Baie carbonisée, ça signifie sans doute qu’un\nde ces Pokémon a envoyé une charge trop forte.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Immer wenn Pikachu auf etwas Neues stößt, jagt es\neinen Elektroschock hindurch. Wenn du eine verkohlte\nBeere findest, hat dieses Pokémon seine elektrische\nLadung falsch eingeschätzt.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Cada vez que un Pikachu se encuentra con algo nuevo, le\nlanza una descarga eléctrica. Cuando se ve alguna baya\nchamuscada, es muy probable que sea obra de un Pikachu,\nya que a veces no controlan la intensidad de la descarga.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Quando Pikachu incontra qualcosa che non conosce, lo\ncolpisce con una scarica elettrica. Quando si vede una bacca\nannerita, è evidente che questo Pokémon ha emesso una\nscossa troppo forte.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Whenever Pikachu comes across something new,\nit blasts it with a jolt of electricity. If you come across a\nblackened berry, it’s evidence that this Pokémon mistook the\nintensity of its charge.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "はじめて　みる　ものには　電撃を　当てる。\n黒こげの　きのみが　落ちていたら　それは\n電撃の　強さを　間違えた　証拠だよ。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "ほっぺの　でんきぶくろの　でんきは　まよなか\nねている　あいだに　ためられている　らしいよ。\nねぼけて　ほうでんしてしまう　ことが　ある。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "뺨의 전기 주머니에 있는 전기는 한밤중\n자는 동안 축적되는 것 같다.\n잠이 덜 깨서 방전하기도 한다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pokémon dispose de petites poches dans les joues pour\nstocker de l’électricité. Elles semblent se charger pendant\nque Pikachu dort. Il libère parfois un peu d’électricité\nlorsqu’il n’est pas encore bien réveillé.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Dieses Pokémon kann in seinen Backentaschen Elektrizität\nspeichern. Diese laden sich nachts auf, während Pikachu\nschläft. Es entlädt manchmal seine elektrische Ladung,\nwenn es gerade aufgewacht und noch schläfrig ist.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Este Pokémon tiene unas bolsas en las mejillas donde\nalmacena electricidad. Parece ser que se recargan por la\nnoche, mientras Pikachu duerme. A veces, cuando se acaba\nde despertar y está aún medio dormido, descarga un poco.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Pikachu immagazzina l’elettricità nelle guance. Pare che\nqueste si ricarichino durante la notte quando dorme.\nTalvolta emette delle scariche elettriche al risveglio mentre\nè ancora assonnato.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "This Pokémon has electricity-storing pouches on its cheeks.\nThese appear to become electrically charged during the night\nwhile Pikachu sleeps. It occasionally discharges electricity\nwhen it is dozy after waking up.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "ほっぺの　電気袋の　電気は　真夜中\n寝ている　間に　ためられている　らしいよ。\n寝ぼけて　放電してしまう　ことが　ある。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "たくさんの　ピカチュウを　あつめ\nはつでんしょを　つくる　けいかくが\nさいきん　はっぴょう　された。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "많은 피카츄를 모아서\n발전소를 만들 계획이\n최근 발표되었다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "最近發表了聚集大量皮卡丘\n來建造發電廠的計畫。",
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Un projet de centrale électrique fonctionnant\nen rassemblant une foule de Pikachu a été\nrécemment annoncé.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Vor Kurzem wurden Pläne verkündet,\nmithilfe einer großen Anzahl an Pikachu\nein ganzes Kraftwerk zu betreiben.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Recientemente se ha presentado un proyecto\npara reunir numerosos Pikachu y crear con ellos\nuna central eléctrica.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Recentemente è stato presentato un progetto\nper riunire numerosi Pikachu e costruire\nuna centrale elettrica.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "A plan was recently announced to gather\nmany Pikachu and make an electric power plant.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "たくさんの　ピカチュウを　集め\n発電所を　造る　計画が\n最近　発表　された。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "最近发表了聚集大量皮卡丘，\n建造发电厂的计划。",
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "でんきを　ためる　せいしつ。\nときどき　おもいきり　ほうでん\nしないと　ストレスを　かんじる。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "전기를 모으는 성질을 가졌다.\n가끔 마음껏 방전하지\n않으면 스트레스를 받는다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "有積聚電力的特質。\n不時常盡情釋放電力的話，\n就會倍感壓力。",
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Un Pokémon capable de condenser l’électricité.\nIl doit décharger l’énergie accumulée de temps\nen temps au risque d’accroître son stress.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Es liegt in seiner Natur, konstant Elektrizität in\nsich anzustauen. Kann es diese nicht regelmäßig\nentladen, löst dies Stress aus.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Pikachu almacena electricidad en su cuerpo.\nSi no la libera de vez en cuando y se desfoga,\npuede sufrir estrés.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Accumula naturalmente elettricità. Se ogni tanto\nnon si sfoga emettendo scariche elettriche,\nrischia di essere sopraffatto dallo stress.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "It’s in its nature to store electricity. It feels\nstressed now and then if it’s unable to fully\ndischarge the electricity.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "電気を　溜める　性質。\n時々　思い切り　放電\nしないと　ストレスを　感じる。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "有积聚电力的特质。\n不时常尽情释放电力的话，\n就会倍感压力。",
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "でんきを　ためこむ　せいしつ。\nピカチュウが　むれて　くらす　もりは\nらくらいが　たえず　キケンだ。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "전기를 모으는 성질을 띠고 있다.\n피카츄가 무리 지어 사는 숲은\n낙뢰가 끊이지 않아 위험하다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "擁有儲蓄電力的特性。\n皮卡丘群居的森林裡\n會不斷落雷，十分危險。",
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Son corps peut accumuler de l’électricité.\nLes forêts abritant des groupes de Pikachu\nsont d’ailleurs souvent frappées par la foudre.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Es liegt in seiner Natur, konstant Elektrizität zu\nspeichern. Die Wälder, in denen Pikachu leben,\nbergen stets die Gefahr eines Blitzgewitters.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Acumulan electricidad de forma natural. Los\nbosques donde habitan en grupos están en\npeligro constante de ser alcanzados por rayos.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Accumula naturalmente elettricità. I boschi\npopolati da gruppi di Pikachu sono pericolosi\nperché continuamente colpiti dai fulmini.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Its nature is to store up electricity. Forests\nwhere nests of Pikachu live are dangerous,\nsince the trees are so often struck by lightning.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "電気を　ため込む　性質。\nピカチュウが　群れて　暮らす　森は\n落雷が　絶えず　危険だ。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "有积存电力的特质。\n在皮卡丘群居的森林里\n会落雷不断，十分危险。",
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "ねてる　あいだに　ほっぺの　ふくろで\nでんきを　つくる。　ねぶそく　だと\nよわい　でんきしか　だせなくなるぞ。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "자는 동안 볼의 주머니에서\n전기를 만든다. 잠이 부족하면\n약한 전기밖에 낼 수 없게 된다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "會在睡覺時用臉頰上的囊\n製造電力。如果睡眠不足，\n就只能放出微弱的電力。",
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Quand il dort, il génère de l’électricité dans les\npoches de ses joues. S’il manque de sommeil,\nil ne peut plus émettre qu’un faible courant.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Seine Backentaschen laden sich elektrisch auf,\nwährend es schläft. Bei Schlafmangel kann es\nnur Schwachstrom entladen.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Mientras duerme, acumula electricidad en las\nbolsas de sus mejillas. Si no logra conciliar el\nsueño, solo puede emitir débiles descargas.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Mentre dorme produce energia elettrica nelle\nsacche che ha sulle guance. Se non riposa\nabbastanza può emettere solo deboli scariche.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "While sleeping, it generates electricity in the\nsacs in its cheeks. If it’s not getting enough\nsleep, it will be able to use only weak electricity.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "寝てる　間に　ほっぺの　袋で\n電気を　作る。　寝不足　だと\n弱い　電気しか　出せなくなるぞ。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "会在睡着时用脸颊上的袋子\n制造电力。如果睡眠不足，\n就只能放出微弱的电力。",
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "もりに　すむ　ポケモン。　ほっぺの\nふくろは　でんきを　ためるので\nさわると　パチパチ　しびれるぞ。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "숲에 사는 포켓몬. 볼에 있는\n주머니에 전기를 모으고 있어\n만지면 저릿저릿 저리다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "棲息在森林裡的寶可夢。\n臉頰上的囊能夠儲存電力，\n用手去摸會被電得麻麻的。",
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pokémon des bois accumule de l’électricité\ndans les poches de ses joues. Il ne faut pas les\ntoucher sous peine de recevoir une décharge.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Pikachu ist in Wäldern zu Hause. Da es in seinen\nBackentaschen Elektrizität speichert, bekommt\nman einen Schlag, wenn man diese berührt.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Los bosques son su hábitat natural. En las bolsas\nde las mejillas acumula electricidad, por lo que\nquien las toque puede recibir una descarga.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Vive nelle foreste. Accumula elettricità nelle\nsacche sulle guance, e chiunque le tocchi\nprende la scossa.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "This forest-dwelling Pokémon stores electricity\nin its cheeks, so you’ll feel a tingly shock\nif you touch it.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "森に　棲む　ポケモン。　ほっぺの\nふくろは　電気を　ためるので\n触ると　パチパチ　痺れるぞ。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "栖息在森林中的宝可梦。由于\n它脸颊上的袋子中储存了电能，\n触摸了之后会觉得麻麻的。",
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "もりに　すむ　ポケモン。　ほっぺの\nふくろは　でんきを　ためるので\nさわると　パチパチ　しびれるぞ。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "숲에 사는 포켓몬. 볼에 있는\n주머니에 전기를 모으고 있어\n만지면 저릿저릿 저리다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "棲息在森林裡的寶可夢。\n臉頰上的囊能夠儲存電力，\n用手去摸會被電得麻麻的。",
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pokémon des bois accumule de l’électricité\ndans les poches de ses joues. Il ne faut pas les\ntoucher sous peine de recevoir une décharge.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Pikachu ist in Wäldern zu Hause. Da es in seinen\nBackentaschen Elektrizität speichert, bekommt\nman einen Schlag, wenn man diese berührt.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Los bosques son su hábitat natural. En las bolsas\nde las mejillas acumula electricidad, por lo que\nquien las toque puede recibir una descarga.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Vive nelle foreste. Accumula elettricità nelle\nsacche sulle guance, e chiunque le tocchi\nprende la scossa.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "This forest-dwelling Pokémon stores electricity\nin its cheeks, so you’ll feel a tingly shock\nif you touch it.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "森に　棲む　ポケモン。　ほっぺの\nふくろは　電気を　ためるので\n触ると　パチパチ　痺れるぞ。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "栖息在森林中的宝可梦。由于\n它脸颊上的袋子中储存了电能，\n触摸了之后会觉得麻麻的。",
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "つくる　でんきが　きょうりょくな\nピカチュウほど　ほっぺの　ふくろは\nやわらかく　よく　のびるぞ。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "https://pokeapi.co/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "만들어 내는 전기가 강력한\n피카츄일수록 볼의 주머니가\n부드럽고 잘 늘어난다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "https://pokeapi.co/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "越是能製造出強大電流的\n皮卡丘，臉頰上的囊就越\n柔軟，同時也越有伸展性。",
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "https://pokeapi.co/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Plus la puissance électrique de Pikachu est élevée,\nplus les poches de ses joues sont extensibles.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "https://pokeapi.co/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Je stärker die Elektrizität ist, die Pikachu\nproduziert, desto weicher und elastischer\nsind seine Backentaschen.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "https://pokeapi.co/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Cuanto más potente es la energía eléctrica que\ngenera este Pokémon, más suaves y elásticas se\nvuelven las bolsas de sus mejillas.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "https://pokeapi.co/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Più potente è l’energia elettrica prodotta dal\nPokémon, più le sacche sulle sue guance sono\nmorbide ed elastiche.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "https://pokeapi.co/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Pikachu that can generate powerful electricity\nhave cheek sacs that are extra soft and\nsuper stretchy.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "https://pokeapi.co/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "つくる　電気が　強力な\nピカチュウほど　ほっぺの　袋は\n軟らかく　よく　伸びるぞ。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "https://pokeapi.co/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "越是能制造出强大电流的\n皮卡丘，脸颊上的囊就越\n柔软，同时也越有伸展性。",
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "https://pokeapi.co/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "おたがいの　しっぽを　くっつけて\nでんきを　ながしあうのが\nピカチュウ　どうしの　あいさつだ。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "https://pokeapi.co/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "서로의 꼬리를 붙여서\n전기를 흐르게 하는 게\n피카츄 사이의 인사법이다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "https://pokeapi.co/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "皮卡丘們把尾巴\n貼在一起交換電流，\n其實是在互相打招呼。",
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "https://pokeapi.co/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Les Pikachu se disent bonjour en se frottant\nla queue et en y faisant passer du courant\nélectrique.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "https://pokeapi.co/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Pikachu begrüßen einander, indem sie ihre\nSchweife aneinanderreiben und eine Ladung\nStrom durch diese gleiten lassen.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "https://pokeapi.co/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Los miembros de esta especie se saludan entre\nsí uniendo sus colas y transmitiéndose corriente\neléctrica.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "https://pokeapi.co/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "I Pikachu si salutano fra loro unendo le code\ne facendovi passare elettricità attraverso.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "https://pokeapi.co/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "When Pikachu meet, they’ll touch their tails\ntogether and exchange electricity through them\nas a form of greeting.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "https://pokeapi.co/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "おたがいの　しっぽを　くっつけて\n電気を　流しあうのが\nピカチュウ　同士の　挨拶だ。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "https://pokeapi.co/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "皮卡丘们把尾巴\n贴在一起交换电流，\n其实是在互相打招呼。",
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "https://pokeapi.co/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Possesses cheek sacs in which it stores electricity. This clever\nforest-dweller roasts tough berries with an electric shock before\nconsuming them.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "legends-arceus",
+                "url": "https://pokeapi.co/api/v2/version/39/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "ねずみポケモン",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            }
+        },
+        {
+            "genus": "쥐포켓몬",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "鼠寶可夢",
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "Pokémon Souris",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "Maus-Pokémon",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pokémon Ratón",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Pokémon Topo",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Mouse Pokémon",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "ねずみポケモン",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "鼠宝可梦",
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "https://pokeapi.co/api/v2/generation/1/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "https://pokeapi.co/api/v2/growth-rate/2/"
+    },
+    "habitat": {
+        "name": "forest",
+        "url": "https://pokeapi.co/api/v2/pokemon-habitat/2/"
+    },
+    "has_gender_differences": true,
+    "hatch_counter": 10,
+    "id": 25,
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "name": "pikachu",
+    "names": [
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "name": "ピカチュウ"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "https://pokeapi.co/api/v2/language/2/"
+            },
+            "name": "Pikachu"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "name": "피카츄"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "name": "皮卡丘"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "name": "Pikachu"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "name": "Pikachu"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "name": "Pikachu"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "name": "Pikachu"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "name": "Pikachu"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "name": "ピカチュウ"
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "name": "皮卡丘"
+        }
+    ],
+    "order": 26,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "forest",
+                "url": "https://pokeapi.co/api/v2/pal-park-area/1/"
+            },
+            "base_score": 80,
+            "rate": 10
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 25,
+            "pokedex": {
+                "name": "national",
+                "url": "https://pokeapi.co/api/v2/pokedex/1/"
+            }
+        },
+        {
+            "entry_number": 25,
+            "pokedex": {
+                "name": "kanto",
+                "url": "https://pokeapi.co/api/v2/pokedex/2/"
+            }
+        },
+        {
+            "entry_number": 22,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "https://pokeapi.co/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 156,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "https://pokeapi.co/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 104,
+            "pokedex": {
+                "name": "original-sinnoh",
+                "url": "https://pokeapi.co/api/v2/pokedex/5/"
+            }
+        },
+        {
+            "entry_number": 104,
+            "pokedex": {
+                "name": "extended-sinnoh",
+                "url": "https://pokeapi.co/api/v2/pokedex/6/"
+            }
+        },
+        {
+            "entry_number": 22,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "https://pokeapi.co/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 16,
+            "pokedex": {
+                "name": "conquest-gallery",
+                "url": "https://pokeapi.co/api/v2/pokedex/11/"
+            }
+        },
+        {
+            "entry_number": 36,
+            "pokedex": {
+                "name": "kalos-central",
+                "url": "https://pokeapi.co/api/v2/pokedex/12/"
+            }
+        },
+        {
+            "entry_number": 163,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "https://pokeapi.co/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 25,
+            "pokedex": {
+                "name": "original-alola",
+                "url": "https://pokeapi.co/api/v2/pokedex/16/"
+            }
+        },
+        {
+            "entry_number": 25,
+            "pokedex": {
+                "name": "original-melemele",
+                "url": "https://pokeapi.co/api/v2/pokedex/17/"
+            }
+        },
+        {
+            "entry_number": 32,
+            "pokedex": {
+                "name": "updated-alola",
+                "url": "https://pokeapi.co/api/v2/pokedex/21/"
+            }
+        },
+        {
+            "entry_number": 32,
+            "pokedex": {
+                "name": "updated-melemele",
+                "url": "https://pokeapi.co/api/v2/pokedex/22/"
+            }
+        },
+        {
+            "entry_number": 25,
+            "pokedex": {
+                "name": "letsgo-kanto",
+                "url": "https://pokeapi.co/api/v2/pokedex/26/"
+            }
+        },
+        {
+            "entry_number": 194,
+            "pokedex": {
+                "name": "galar",
+                "url": "https://pokeapi.co/api/v2/pokedex/27/"
+            }
+        },
+        {
+            "entry_number": 85,
+            "pokedex": {
+                "name": "isle-of-armor",
+                "url": "https://pokeapi.co/api/v2/pokedex/28/"
+            }
+        },
+        {
+            "entry_number": 56,
+            "pokedex": {
+                "name": "hisui",
+                "url": "https://pokeapi.co/api/v2/pokedex/30/"
+            }
+        },
+        {
+            "entry_number": 74,
+            "pokedex": {
+                "name": "paldea",
+                "url": "https://pokeapi.co/api/v2/pokedex/31/"
+            }
+        },
+        {
+            "entry_number": 21,
+            "pokedex": {
+                "name": "kitakami",
+                "url": "https://pokeapi.co/api/v2/pokedex/32/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "quadruped",
+        "url": "https://pokeapi.co/api/v2/pokemon-shape/8/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "pikachu",
+                "url": "https://pokeapi.co/api/v2/pokemon/25/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "pikachu-rock-star",
+                "url": "https://pokeapi.co/api/v2/pokemon/10080/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "pikachu-belle",
+                "url": "https://pokeapi.co/api/v2/pokemon/10081/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "pikachu-pop-star",
+                "url": "https://pokeapi.co/api/v2/pokemon/10082/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "pikachu-phd",
+                "url": "https://pokeapi.co/api/v2/pokemon/10083/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "pikachu-libre",
+                "url": "https://pokeapi.co/api/v2/pokemon/10084/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "pikachu-cosplay",
+                "url": "https://pokeapi.co/api/v2/pokemon/10085/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "pikachu-original-cap",
+                "url": "https://pokeapi.co/api/v2/pokemon/10094/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "pikachu-hoenn-cap",
+                "url": "https://pokeapi.co/api/v2/pokemon/10095/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "pikachu-sinnoh-cap",
+                "url": "https://pokeapi.co/api/v2/pokemon/10096/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "pikachu-unova-cap",
+                "url": "https://pokeapi.co/api/v2/pokemon/10097/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "pikachu-kalos-cap",
+                "url": "https://pokeapi.co/api/v2/pokemon/10098/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "pikachu-alola-cap",
+                "url": "https://pokeapi.co/api/v2/pokemon/10099/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "pikachu-partner-cap",
+                "url": "https://pokeapi.co/api/v2/pokemon/10148/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "pikachu-starter",
+                "url": "https://pokeapi.co/api/v2/pokemon/10158/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "pikachu-world-cap",
+                "url": "https://pokeapi.co/api/v2/pokemon/10160/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "pikachu-gmax",
+                "url": "https://pokeapi.co/api/v2/pokemon/10199/"
+            }
+        }
+    ]
+}
+
+URL5 : https://pokeapi.co/api/v2/pokemon-species/22/
+{
+    "base_happiness": 70,
+    "capture_rate": 90,
+    "color": {
+        "name": "brown",
+        "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
+    },
+    "egg_groups": [
+        {
+            "name": "flying",
+            "url": "https://pokeapi.co/api/v2/egg-group/4/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "https://pokeapi.co/api/v2/evolution-chain/8/"
+    },
+    "evolves_from_species": {
+        "name": "spearow",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/21/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "With its huge and\nmagnificent wings,\nit can keep aloft\fwithout ever\nhaving to land\nfor rest.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "red",
+                "url": "https://pokeapi.co/api/v2/version/1/"
+            }
+        },
+        {
+            "flavor_text": "With its huge and\nmagnificent wings,\nit can keep aloft\fwithout ever\nhaving to land\nfor rest.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "blue",
+                "url": "https://pokeapi.co/api/v2/version/2/"
+            }
+        },
+        {
+            "flavor_text": "A POKéMON that\ndates back many\nyears. If it\fsenses danger, it\nflies high and\naway, instantly.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "yellow",
+                "url": "https://pokeapi.co/api/v2/version/3/"
+            }
+        },
+        {
+            "flavor_text": "It shoots itself\nsuddenly high into\nthe sky, then\fplummets down in\none fell swoop to\nstrike its prey.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "https://pokeapi.co/api/v2/version/4/"
+            }
+        },
+        {
+            "flavor_text": "It cleverly uses\nits thin, long\nbeak to pluck and\feat small insects\nthat hide under\nthe ground.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "https://pokeapi.co/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "It uses its long\nbeak to attack. It\nhas a surprisingly\flong reach, so it\nmust be treated\nwith caution.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "https://pokeapi.co/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "FEAROW is recognized by its long neck\nand elongated beak.\nThey are conveniently shaped for\fcatching prey in soil or water.\nIt deftly moves its long and skinny\nbeak to pluck prey.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "https://pokeapi.co/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "FEAROW is recognized by its long neck\nand elongated beak.\nThey are conveniently shaped for\fcatching prey in soil or water.\nIt deftly moves its long and skinny\nbeak to pluck prey.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "https://pokeapi.co/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "Its long neck and elongated beak are\nideal for catching prey in soil or water.\nIt deftly moves this extended and skinny\nbeak to pluck prey.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "https://pokeapi.co/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "Its huge and magnificent wings can keep it\naloft in the sky. It can remain flying a\nwhole day without landing.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "https://pokeapi.co/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "With its huge and magnificent wings, it can\nkeep aloft without ever having to land\nfor rest.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "https://pokeapi.co/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "It has the stamina to fly all\nday on its broad wings. It\nfights by using its sharp beak.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "https://pokeapi.co/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "It has the stamina to keep flying\nall day on its broad wings. It\nfights by using its sharp beak.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "https://pokeapi.co/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "It has the stamina to fly all\nday on its broad wings. It\nfights by using its sharp beak.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "https://pokeapi.co/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It shoots itself suddenly high into\nthe sky, then plummets down in\none fell swoop to strike its prey.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "https://pokeapi.co/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It cleverly uses its thin, long\nbeak to pluck and eat small insects\nthat hide under the ground.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "https://pokeapi.co/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "Il a assez d’énergie pour voler\ntoute la journée avec ses grandes\nailes. Il frappe de son bec acéré.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "https://pokeapi.co/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "It has the stamina to fly all\nday on its broad wings. It\nfights by using its sharp beak.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "https://pokeapi.co/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Il a assez d’énergie pour voler\ntoute la journée avec ses grandes\nailes. Il frappe de son bec acéré.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "https://pokeapi.co/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It has the stamina to fly all\nday on its broad wings. It\nfights by using its sharp beak.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "https://pokeapi.co/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "It has the stamina to fly all\nday on its broad wings. It\nfights by using its sharp beak.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "https://pokeapi.co/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "It has the stamina to fly all\nday on its broad wings. It\nfights by using its sharp beak.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "https://pokeapi.co/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "おおきな　つばさで　おおぞらを\nとびつづけることが　できる。\n１かいも　おりなくても　へいきだ。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "커다란 날개로 넓은 하늘을\n계속 날 수 있다.\n한 번도 내려앉지 않아도 괜찮다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Ses ailes géantes lui permettent de voler sur de\nlongues distances sans qu’il ait besoin de se reposer.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Mit seinen riesigen Flügeln kann dieses Pokémon\nnahezu pausenlos in der Luft bleiben.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Con sus enormes y magníficas alas, puede seguir\nvolando sin tener que aterrizar para descansar.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Con le sue enormi e magnifiche ali, è in grado di\nvolare senza mai atterrare per riposarsi.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "With its huge and magnificent wings, it can keep\naloft without ever having to land for rest.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "大きな　翼で　大空を\n飛び続けることが　できる。\n１回も　降りなくても　平気だ。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "おおきな　つばさで　１にちじゅう\nとびまわる　たいりょくの　もちぬし。\nするどい　くちばしで　たたかう。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "큰 날개로 온종일\n날아다닐 수 있는 체력의 소유자다.\n날카로운 부리로 싸운다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il a assez d’énergie pour voler toute la journée avec\nses grandes ailes. Il frappe de son bec acéré.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es hat genügend Ausdauer, den ganzen Tag\nzu fliegen. Sein scharfer Schnabel dient als Waffe.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Tiene energía para volar todo el día con sus grandes\nalas. Lucha con su afilado pico.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Le sue ampie ali robuste gli permettono di volare\ntutto il giorno. Combatte usando il becco aguzzo.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It has the stamina to fly all day on its broad wings.\nIt fights by using its sharp beak.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "大きな　翼で　１日中\n飛び回る　体力の　持ち主。\n鋭い　クチバシで　戦う。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "ながい　くびと　くちばしは　つちや　みずの\nなかに　いる　エサを　つかまえるのに　べんり。\nほそながい　くちばしで　きように　つまむぞ。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "긴 목과 부리는 땅이나 물 안에\n있는 먹이를 잡기 편리하다.\n가늘고 긴 부리로 능숙히 집는다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "On reconnaît un Rapasdepic à son long cou et à son bec\nallongé. Ces attributs lui permettent d’attraper facilement\nses proies dans la terre ou dans l’eau. Il bouge son bec\nlong et fin avec une grande agilité.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "알로라에서는 물고기포켓몬이\n먹이다. 바다 위를 선회하며\n먹이를 찾는 광경을 볼 수 있다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Ibitak erkennt man an seinem langen Hals und Schnabel.\nEr ist hervorragend dafür geeignet, im Erdreich oder im\nWasser Beute zu jagen. Es setzt seinen langen, dünnen\nSchnabel dabei sehr geschickt ein.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "A Fearow se le reconoce por tener un pescuezo y un pico\nlargos que le permiten cazar en tierra y agua. Tiene una\ngran habilidad moviendo el fino pico para atrapar a sus presas.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Fearow è caratterizzato da un collo e un becco molto lunghi,\ndalla forma ottimale per la cattura della preda a terra o\nin acqua. Muove agilmente il becco lungo e affusolato\nper stanare la preda.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Fearow is recognized by its long neck and elongated beak.\nThey are conveniently shaped for catching prey in soil\nor water. It deftly moves its long and skinny beak to\npluck prey.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "長い　首と　くちばしは　土や　水の\n中に　いる　エサを　捕まえるのに　便利。\n細長い　くちばしで　器用に　つまむぞ。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "ながい　くびと　くちばしは　つちや　みずの\nなかに　いる　エサを　つかまえるのに　べんり。\nほそながい　くちばしで　きように　つまむぞ。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "긴 목과 부리는 땅이나 물 안에\n있는 먹이를 잡기 편리하다.\n가늘고 긴 부리로 능숙히 집는다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "On reconnaît un Rapasdepic à son long cou et à son bec\nallongé. Ces attributs lui permettent d’attraper facilement\nses proies dans la terre ou dans l’eau. Il bouge son bec\nlong et fin avec une grande agilité.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Ibitak erkennt man an seinem langen Schnabel. Er ist\nhervorragend dafür geeignet, im Erdreich oder im Wasser\nBeute zu jagen. Es setzt seinen langen, dünnen Schnabel\ndabei sehr geschickt ein.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "A Fearow se le reconoce por tener un pescuezo y un pico\nlargos que le permiten cazar en tierra y agua. Tiene una\ngran habilidad moviendo el fino pico para atrapar a sus presas.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Fearow è caratterizzato da un collo e un becco molto lunghi,\ndalla forma ottimale per la cattura della preda a terra o\nin acqua. Muove agilmente il becco lungo e affusolato\nper stanare la preda.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Fearow is recognized by its long neck and elongated beak.\nThey are conveniently shaped for catching prey in soil or\nwater. It deftly moves its long and skinny beak to pluck prey.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "長い　首と　くちばしは　土や　水の\n中に　いる　エサを　捕まえるのに　便利。\n細長い　くちばしで　器用に　つまむぞ。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "タフで　じきゅうりょくに　すぐれる。\nおもたい　にもつを　のせたまま\nまる１にち　とびつづけても　へいき。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "터프하고 지구력도 우수하다.\n무거운 짐을 진 채\n온종일 날아도 끄떡없다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "強壯且擁有優秀的持久力。\n即使載著很重的貨物\n持續飛行一整天也沒問題。",
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Un Pokémon robuste et extrêmement endurant.\nIl est capable de voler du matin au soir tout\nen transportant de lourdes charges.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Es ist belastbar und hat genügend Ausdauer,\num selbst mit schwerer Fracht beladen einen\nganzen Tag lang in der Luft zu bleiben.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Son de destacar su dureza y resistencia.\nPuede volar sin parar durante un día entero\naunque lleve una pesada carga.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Ha una notevole resistenza fisica e può volare\nper un giorno intero trasportando oggetti\npesanti.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "It’s tough and has excellent stamina.\nIt has no problem flying continuously\nfor a whole day carrying a heavy load.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "タフで　持久力に　優れる。\n重たい　荷物を　乗せたまま\n丸１日　飛び続けても　平気。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "因为很强壮而持久力优秀。\n即使载着很重的货物持续\n飞行一整天也平心静气。",
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "はるか　たいこの　へきがのなかに\nオニドリルらしき　ポケモンが\nえがかれていることが　わかった。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "먼 태곳적 벽화 속에\n깨비드릴조처럼 보이는 포켓몬이\n그려져 있는 것이 발견되었다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "經調查發現，在遙遠\n太古時代的壁畫描繪著\n形似大嘴雀的寶可夢。",
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Un Pokémon fort ancien, qui a même été identifié\nsur des fresques antiques.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Wie kürzlich bekannt wurde, existieren uralte\nWandmalereien, auf denen Pokémon abgebildet\nsind, die Ähnlichkeiten mit Ibitak aufweisen.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "En algunos murales de épocas arcaicas se han\nhallado pinturas de un Pokémon que guarda un\ngran parecido con Fearow.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Sembra che questo Pokémon sia raffigurato\nin pitture rupestri antichissime.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Drawings of a Pokémon resembling Fearow can\nbe seen in murals from deep in ancient history.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "遥か　太古の　壁画の中に\nオニドリルらしき　ポケモンが\n描かれていることが　判った。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "经查证，在遥远的\n太古时代壁画中描绘有\n形似大嘴雀的宝可梦。",
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "オニドリルの　なわばりで　たべものを\nもって　あるくのは　キケンだ。\nあっという　まに　かっさらわれるぞ。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "깨비드릴조 영역에서 음식을\n갖고 다니는 것은 위험하다.\n순식간에 빼앗긴다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "在大嘴雀的地盤上\n帶著食物走動是件危險的事，\n食物轉眼間就會被奪走。",
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Si vous vous promenez sur le territoire d’un\nRapasdepic en transportant de la nourriture,\nvous risquez de vite la voir s’envoler !",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Wer Essbares dabeihat, sollte sich nicht in\nIbitaks Revier begeben, da sonst ein Überfall\naus heiterem Himmel droht.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Es peligroso pasear con comida por su territorio,\nya que supone exponerse a que en cualquier\nmomento se abalance para robarla.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Chi attraversa il suo territorio portando con sé\ndel cibo corre il rischio di vederselo strappare\nvia in men che non si dica.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Carrying food through Fearow’s territory is\ndangerous. It will snatch the food away from\nyou in a flash!",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "オニドリルの　縄張りで　食べ物を\n持って　歩くのは　危険だ。\nあっという　間に　かっさらわれるぞ。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "在大嘴雀的领地上拿着食物\n走动可是相当危险的。\n食物转眼间就会被抢走。",
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "アローラでは　さかなポケモンが\nえもの。　うみの　うえを　せんかいし\nエサをさがす　こうけいが　みられる。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "在阿羅拉，牠的獵物是魚寶可夢，\n所以能看見牠盤旋在海上\n尋找食物的景象。",
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "À Alola, il se repaît de Pokémon poissons.\nOn le voit souvent voler en cercle au-dessus\ndes flots en quête de nourriture.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "In Alola findet es seine Beute im Meer. Ibitak, die\nsuchend ihre Kreise über dem Wasser ziehen,\nsind ein typischer Anblick in der Region.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "En Alola, se alimenta de Pokémon pez. A menudo\nse lo puede ver sobrevolando el mar en círculos\nen busca de presas.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Ad Alola si ciba di Pokémon acquatici.\nSpesso lo si vede volteggiare sul mare in\ncerca di prede.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "In Alola, fish Pokémon are its prey. It can be\nseen circling above the ocean searching\nfor food.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "アローラでは　さかなポケモンが\n獲物。　海の　上を　旋回し\nエサを探す　光景が　見られる。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "在阿罗拉，它的猎物是鱼宝可梦。\n能看到它盘旋在海上觅食的景象。",
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "むかしから　すんでいる　ポケモン。\nすこしでも　きけんを　かんじると\nそらたかく　とんで　いってしまう。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "옛날부터 살고 있는 포켓몬.\n조금이라도 위험을 감지하면\n하늘 높이 날아가 버린다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "從很久以前就已存在的寶可夢。\n只要察覺到絲毫的危險，\n就會立刻飛上高空躲避。",
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Un Pokémon très ancien. S’il perçoit un danger,\nil fuit instantanément à haute altitude.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Dieses Pokémon gehört einer sehr alten Spezies\nan. Wittert es Gefahr, so fliegt es sofort in große\nHöhen davon.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Este Pokémon ha existido desde tiempos\nremotos. Al menor atisbo de peligro, alza el\nvuelo y huye.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Questo Pokémon molto antico vola in alto\nnel cielo al minimo accenno di pericolo.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "A Pokémon that dates back many years. If it\nsenses danger, it flies high and away, instantly.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "昔から　住んでいる　ポケモン。\n少しでも　危険を　感じると\n空高く　飛んで　いってしまう。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "很久以前就存在的宝可梦。\n哪怕只察觉到一丝危险，\n都会立即飞向高空。",
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "むかしから　すんでいる　ポケモン。\nすこしでも　きけんを　かんじると\nそらたかく　とんで　いってしまう。",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "옛날부터 살고 있는 포켓몬.\n조금이라도 위험을 감지하면\n하늘 높이 날아가 버린다.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "從很久以前就已存在的寶可夢。\n只要察覺到絲毫的危險，\n就會立刻飛上高空躲避。",
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Un Pokémon très ancien. S’il perçoit un danger,\nil fuit instantanément à haute altitude.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Dieses Pokémon gehört einer sehr alten Spezies\nan. Wittert es Gefahr, so fliegt es sofort in große\nHöhen davon.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Este Pokémon ha existido desde tiempos\nremotos. Al menor atisbo de peligro, alza el\nvuelo y huye.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Questo Pokémon molto antico vola in alto\nnel cielo al minimo accenno di pericolo.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "A Pokémon that dates back many years. If it\nsenses danger, it flies high and away, instantly.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "昔から　住んでいる　ポケモン。\n少しでも　危険を　感じると\n空高く　飛んで　いってしまう。",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "很久以前就存在的宝可梦。\n哪怕只察觉到一丝危险，\n都会立即飞向高空。",
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "くちばしポケモン",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            }
+        },
+        {
+            "genus": "부리포켓몬",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "鳥嘴寶可夢",
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "Pokémon Bec-Oiseau",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "Pickvogel",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pokémon Pico",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Pokémon Becco",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Beak Pokémon",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "くちばしポケモン",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "鸟嘴宝可梦",
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "https://pokeapi.co/api/v2/generation/1/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "https://pokeapi.co/api/v2/growth-rate/2/"
+    },
+    "habitat": {
+        "name": "rough-terrain",
+        "url": "https://pokeapi.co/api/v2/pokemon-habitat/6/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 15,
+    "id": 22,
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "name": "fearow",
+    "names": [
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
+            "name": "オニドリル"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "https://pokeapi.co/api/v2/language/2/"
+            },
+            "name": "Onidrill"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "name": "깨비드릴조"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "name": "大嘴雀"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "name": "Rapasdepic"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "name": "Ibitak"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "name": "Fearow"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "name": "Fearow"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "name": "Fearow"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "name": "オニドリル"
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "name": "大嘴雀"
+        }
+    ],
+    "order": 22,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "field",
+                "url": "https://pokeapi.co/api/v2/pal-park-area/2/"
+            },
+            "base_score": 50,
+            "rate": 30
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 22,
+            "pokedex": {
+                "name": "national",
+                "url": "https://pokeapi.co/api/v2/pokedex/1/"
+            }
+        },
+        {
+            "entry_number": 22,
+            "pokedex": {
+                "name": "kanto",
+                "url": "https://pokeapi.co/api/v2/pokedex/2/"
+            }
+        },
+        {
+            "entry_number": 14,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "https://pokeapi.co/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 14,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "https://pokeapi.co/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 110,
+            "pokedex": {
+                "name": "kalos-mountain",
+                "url": "https://pokeapi.co/api/v2/pokedex/14/"
+            }
+        },
+        {
+            "entry_number": 74,
+            "pokedex": {
+                "name": "original-alola",
+                "url": "https://pokeapi.co/api/v2/pokedex/16/"
+            }
+        },
+        {
+            "entry_number": 74,
+            "pokedex": {
+                "name": "original-melemele",
+                "url": "https://pokeapi.co/api/v2/pokedex/17/"
+            }
+        },
+        {
+            "entry_number": 41,
+            "pokedex": {
+                "name": "original-ulaula",
+                "url": "https://pokeapi.co/api/v2/pokedex/19/"
+            }
+        },
+        {
+            "entry_number": 25,
+            "pokedex": {
+                "name": "original-poni",
+                "url": "https://pokeapi.co/api/v2/pokedex/20/"
+            }
+        },
+        {
+            "entry_number": 88,
+            "pokedex": {
+                "name": "updated-alola",
+                "url": "https://pokeapi.co/api/v2/pokedex/21/"
+            }
+        },
+        {
+            "entry_number": 88,
+            "pokedex": {
+                "name": "updated-melemele",
+                "url": "https://pokeapi.co/api/v2/pokedex/22/"
+            }
+        },
+        {
+            "entry_number": 41,
+            "pokedex": {
+                "name": "updated-ulaula",
+                "url": "https://pokeapi.co/api/v2/pokedex/24/"
+            }
+        },
+        {
+            "entry_number": 34,
+            "pokedex": {
+                "name": "updated-poni",
+                "url": "https://pokeapi.co/api/v2/pokedex/25/"
+            }
+        },
+        {
+            "entry_number": 22,
+            "pokedex": {
+                "name": "letsgo-kanto",
+                "url": "https://pokeapi.co/api/v2/pokedex/26/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "wings",
+        "url": "https://pokeapi.co/api/v2/pokemon-shape/9/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "fearow",
+                "url": "https://pokeapi.co/api/v2/pokemon/22/"
+            }
+        }
+    ]
+}
