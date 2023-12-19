@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import axios from 'axios';
-const ProductForm = () => {
+const ProductForm = (props) => {
+    const {productList, setProductList} = props; 
     const [title, setTitle] = useState(""); 
-    const [price, setPrice] = useState();
+    const [price, setPrice] = useState("");
     const [description, setDescription] = useState("")
 
     const onSubmitHandler = (e) => {
@@ -15,6 +16,7 @@ const ProductForm = () => {
             .then(res=>{
                 console.log(res); // always console log to get used to tracking your data!
                 console.log(res.data);
+                setProductList([...productList, res.data]);
             })
             .catch(err=>console.log(err))
     }
